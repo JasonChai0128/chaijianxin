@@ -10,7 +10,15 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
+            background-image: url('beijing.jpeg'); /* 设置背景图像路径 */
+            background-size: cover; /* 背景图像铺满整个屏幕 */
+            background-position: center; /* 居中对齐背景图像 */
+            background-repeat: no-repeat; /* 不重复背景图像 */
             color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
         }
         header {
             background-color: #333;
@@ -20,11 +28,10 @@
         }
         .container {
             width: 80%;
-            margin: 0 auto;
             padding: 20px;
+            text-align: center;
         }
         .intro {
-            text-align: center;
             margin-bottom: 40px;
         }
         .intro h1 {
@@ -39,10 +46,15 @@
             display: flex;
             overflow-x: scroll;
             gap: 10px;
+            justify-content: center;
         }
         .gallery img {
             max-height: 300px;
             border-radius: 10px;
+        }
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
         }
         footer {
             text-align: center;
@@ -58,10 +70,9 @@
     </header>
     <div class="container">
         <div class="intro">
-            <h1>个人简介</h1>
+            <h1>OH yeah!</h1>
             <p>
                 你好！我是JasonChai，一名拥有火之意识的人。喜爱陶喆的音乐产房。
-                
             </p>
         </div>
         <div class="gallery">
@@ -84,17 +95,4 @@
     </footer>
 </body>
 </html>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4; /* 设置页面的背景颜色 */
-        color: #333;
-        background-image: url('beijing.jpeg'); /* 设置背景图像路径 */
-        background-size: cover; /* 背景图像铺满整个屏幕 */
-        background-position: center; /* 居中对齐背景图像 */
-        background-repeat: no-repeat; /* 不重复背景图像 */
-    }
-    /* 其他样式 */
-</style>
+
