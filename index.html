@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .intro h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .intro p {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+        .gallery {
+            display: flex;
+            overflow-x: scroll;
+            gap: 10px;
+        }
+        .gallery img {
+            max-height: 300px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的个人主页</h1>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <h1>个人简介</h1>
+            <p>
+                你好！我是[你的名字]，一名[你的职业或专业]。我热衷于[你的兴趣或爱好]，
+                并且在[相关领域]有丰富的经验。我喜欢探索新事物，并且不断挑战自己。
+            </p>
+        </div>
+        <div class="gallery">
+            <img src="image1.jpg" alt="Image 1">
+            <img src="image2.jpg" alt="Image 2">
+            <img src="image3.jpg" alt="Image 3">
+            <!-- 可以添加更多图片 -->
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 [你的名字]. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
